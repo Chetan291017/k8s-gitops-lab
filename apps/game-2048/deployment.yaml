@@ -3,8 +3,7 @@ kind: Deployment
 metadata:
   name: game-2048
 spec:
-  replicas: 2
-  selector:
+  replicas: 333 selector:
     matchLabels:
       app: game-2048
   template:
